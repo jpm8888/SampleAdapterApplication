@@ -29,14 +29,14 @@ public class Launcher extends AppCompatActivity {
         mRecyclerView.setHasFixedSize(true);
         mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
-        mAdapter = new AdapterRingtone(modelRingtones);
+        mAdapter = new AdapterRingtone(this, modelRingtones);
         mRecyclerView.setAdapter(mAdapter);
 
     }
 
     private void populateItems() {
         modelRingtones = new ArrayList<ModelRingtone>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             modelRingtones.add(new ModelRingtone("Ringtone " + i));
         }
     }

@@ -13,11 +13,11 @@ public class ModelRingtone {
         this.name = name;
     }
 
-    public boolean isPlay_checked() {
+    public boolean isPlayChecked() {
         return play_checked;
     }
 
-    public void setPlay_checked(boolean play_checked) {
+    public void setPlayChecked(boolean play_checked) {
         this.play_checked = play_checked;
     }
 
@@ -29,35 +29,35 @@ public class ModelRingtone {
         this.name = name;
     }
 
-    public boolean isContact_checked() {
+    public boolean isContactChecked() {
         return contact_checked;
     }
 
-    public void setContact_checked(boolean contact_checked) {
+    public void setContactChecked(boolean contact_checked) {
         this.contact_checked = contact_checked;
     }
 
-    public boolean isAlarm_checked() {
+    public boolean isAlarmChecked() {
         return alarm_checked;
     }
 
-    public void setAlarm_checked(boolean alarm_checked) {
+    public void setAlarmChecked(boolean alarm_checked) {
         this.alarm_checked = alarm_checked;
     }
 
-    public boolean isNotification_checked() {
+    public boolean isNotificationChecked() {
         return notification_checked;
     }
 
-    public void setNotification_checked(boolean notification_checked) {
+    public void setNotificationChecked(boolean notification_checked) {
         this.notification_checked = notification_checked;
     }
 
-    public boolean isPhone_checked() {
+    public boolean isPhoneChecked() {
         return phone_checked;
     }
 
-    public void setPhone_checked(boolean phone_checked) {
+    public void setPhoneChecked(boolean phone_checked) {
         this.phone_checked = phone_checked;
     }
 }
